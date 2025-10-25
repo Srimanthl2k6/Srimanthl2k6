@@ -106,7 +106,7 @@
 
 <div align="center">
 
-### 👽 *One. Packet. At. A. Time."*
+### 👽 *One. Packet. At. A. Time.*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=FF6EC7&height=100&section=footer" width="100%"/>
 
