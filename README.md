@@ -18,11 +18,10 @@
 ## 🧠 About Me
 
 <div align="center">
+
 🧩 Focused on Cybersecurity, Network Architecture, and System Design
 ⚙️ Learning to optimize security and scalability across enterprise networks
 🧱 Always building, testing, and breaking things — just to make them stronger
-
-
 </div>
 
 <table align="center">
@@ -70,6 +69,16 @@
 
 ---
 
+## 🎵 Currently Listening To
+
+<div align="center">
+
+[![Apple Music GitHub profile](https://music-profile.rayriffy.com/theme/dark.svg?uid=001575.d477e769ee084c8d95a9899cb3bea256.1232)](https://music-profile.rayriffy.com)
+
+</div>
+
+---
+
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -97,8 +106,7 @@
 
 <div align="center">
 
-### 👽 *"One. Packet. At. A. Time."*
-
+### 👽 *One. Packet. At. A. Time."*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=FF6EC7&height=100&section=footer" width="100%"/>
 
