@@ -40,6 +40,7 @@
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![VMware](https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white)
 ![Cisco Packet Tracer](https://img.shields.io/badge/Cisco%20Packet%20Tracer-1D4F91?style=for-the-badge&logo=cisco&logoColor=white)
+![SIEM](https://img.shields.io/badge/SIEM-FF6EC7?style=for-the-badge&logo=elastic&logoColor=white)
 
 </div>
 
