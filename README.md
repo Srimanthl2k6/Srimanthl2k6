@@ -1,23 +1,20 @@
-
-
-
 <div align="center">
 
-# ⚡️ **Hey, I’m Srimanth**  
-💻 Computer Science Student | 🔐 Cybersecurity & Network Enthusiast  
+# ⚡️ **Hey, I’m Srimanth**  
+💻 Computer Science Student | 🔐 Cybersecurity & Network Enthusiast  
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2500&pause=800&color=FF6EC7&center=true&vCenter=true&width=600&lines=Building+systems+that+don’t+break.;Securing+networks+that+shouldn’t+fail.;Always+debugging.+Never+done.)
 
 ---
 
-<img src="https://media.tenor.com/qj8mHb6dM90AAAAC/coding.gif" width="400" alt="Coding gif">
+<img src="https://i.imgur.com/qLdn2f3.gif" width="100%" alt="Animated network grid">
 
 ---
 
 ## 🧠 About Me
 
-🧩 Focused on **Cybersecurity**, **Network Architecture**, and **System Design**  
-⚙️ Learning to optimize security and scalability across enterprise networks  
+🧩 Focused on **Cybersecurity**, **Network Architecture**, and **System Design**  
+⚙️ Learning to optimize security and scalability across enterprise networks  
 🧱 Always building, testing, and breaking things — just to make them stronger
 
 ---
@@ -44,27 +41,16 @@
 
 ## 🚀 Projects
 
-<table align="center">
-  <thead>
-    <tr>
-      <th>🧩 Project</th>
-      <th>🔗 Link</th>
-      <th>💡 Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>FileCrypt</strong></td>
-      <td><a href="https://github.com/Srimanthl2k6/FileCrypt">GitHub</a></td>
-      <td>A secure file encryption and decryption utility built with Python and AES.</td>
-    </tr>
-    <tr>
-      <td><strong>Enterprise Network Simulation</strong></td>
-      <td><a href="https://github.com/Srimanthl2k6/Enterprise_Network_Simulation">GitHub</a></td>
-      <td>Simulated enterprise-grade network with VLANs, ACLs, and Active Directory.</td>
-    </tr>
-  </tbody>
-</table>
+<div align="center">
+  
+<a href="https://github.com/Srimanthl2k6/FileCrypt">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Srimanthl2k6&repo=FileCrypt&theme=radical&hide_border=true&title_color=FF6EC7&icon_color=FF6EC7" alt="FileCrypt Project Card">
+</a>
+<a href="https://github.com/Srimanthl2k6/Enterprise_Network_Simulation">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Srimanthl2k6&repo=Enterprise_Network_Simulation&theme=radical&hide_border=true&title_color=FF6EC7&icon_color=FF6EC7" alt="Enterprise Network Simulation Project Card">
+</a>
+
+</div>
 
 ---
 
@@ -82,20 +68,23 @@
 
 ## 🌐 Connect with Me
 
-<div align="center">
-
-<a href="https://www.instagram.com/srimanth__l/"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" /></a>
-<a href="https://www.linkedin.com/in/srimanth-lashkar-0794a5264/"><img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white" /></a>
-
-</div>
+> ```bash
+> $ srimanth connect
+> 
+> > Executing...
+> 
+> [LinkedIn]  Connecting to linkedin.com/in/srimanth-lashkar-0794a5264... [Success]
+> > └── [Open Profile](https://www.linkedin.com/in/srimanth-lashkar-0794a5264/)
+> 
+> [Instagram] Connecting to instagram.com/srimanth__l... [Success]
+> > └── [Open Profile](https://www.instagram.com/srimanth__l/)
+> ```
 
 ---
 
 <div align="center">
 
-🩵 Focused. Minimal. Intentional.  
+🩵 Focused. Minimal. Intentional.  
 ⚡ Always learning. Always building.
 
 </div>
-
----
