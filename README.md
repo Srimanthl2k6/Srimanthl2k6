@@ -17,9 +17,32 @@
 
 ## 🧠 About Me
 
-🧩 Focused on **Cybersecurity**, **Network Architecture**, and **System Design**  
-⚙️ Learning to optimize security and scalability across enterprise networks  
+<div align="center">
+🧩 Focused on Cybersecurity, Network Architecture, and System Design
+⚙️ Learning to optimize security and scalability across enterprise networks
 🧱 Always building, testing, and breaking things — just to make them stronger
+
+</div>
+
+<table align="center">
+<tr>
+<td align="center" width="33%">
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="80">
+<br><strong>Cybersecurity</strong>
+<br><sub>Network security & analysis</sub>
+</td>
+<td align="center" width="33%">
+<img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="80">
+<br><strong>System Design</strong>
+<br><sub>Enterprise architecture</sub>
+</td>
+<td align="center" width="33%">
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="80">
+<br><strong>Building & Testing</strong>
+<br><sub>Breaking to strengthen</sub>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -74,6 +97,7 @@
 <div align="center">
 
 ### 👽 *"One. Packet. At. A. Time."*
+
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=FF6EC7&height=100&section=footer" width="100%"/>
 
