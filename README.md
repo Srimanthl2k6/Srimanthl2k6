@@ -1,16 +1,50 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**Srimanthl2k6/Srimanthl2k6** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# ⚡️ **Hey, I’m Srimanth**  
+💻 Computer Science Student | 🔐 Cybersecurity & Network Enthusiast  
 
-Here are some ideas to get you started:
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2500&pause=800&color=FF6EC7&center=true&vCenter=true&width=600&lines=Building+systems+that+don’t+break.;Securing+networks+that+shouldn’t+fail.;Always+debugging.+Never+done.)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+<img src="https://media.tenor.com/qj8mHb6dM90AAAAC/coding.gif" width="400" alt="Coding gif">
+
+---
+
+## 🧠 About Me
+
+🧩 Focused on **Cybersecurity**, **Network Architecture**, and **System Design**.  
+⚙️ Currently learning to optimize security and scalability across enterprise networks.  
+🧱 Always building, testing, and breaking things — just to make them stronger.
+
+---
+
+## 🛠️ Tech Stack
+
+```text
+Languages:  C | C++ | Python | JavaScript | HTML/CSS  
+Tools:      Git | Cisco Packet Tracer | VMware | Wireshark  
+Domains:    Cybersecurity | Networking | System Simulation | Scripting  
+Domains:    Cybersecurity | Networking | System Simulation | Scripting  
+<div align="center">
+
+</div>
+| 🧩 Project                        | 🔗 Link                                                                                                                | 💡 Description                                                             |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| **FileCrypt**                     | [github.com/Srimanthl2k6/FileCrypt](https://github.com/Srimanthl2k6/FileCrypt)                                         | A secure file encryption and decryption utility built with Python and AES. |
+| **Enterprise Network Simulation** | [github.com/Srimanthl2k6/Enterprise_Network_Simulation](https://github.com/Srimanthl2k6/Enterprise_Network_Simulation) | Simulated enterprise-grade network with VLANs, ACLs, and Active Directory. |
+⚡ GitHub Stats
+<div align="center">
+
+</div>
+🌐 Connect with Me
+
+* [Instagram – srimanth__l](https://www.instagram.com/srimanth__l/)
+* [LinkedIn – Srimanth Lashkar](https://www.linkedin.com/in/srimanth-lashkar-0794a5264/)
+
+<div align="center">
+
+🩵 Focused. Minimal. Intentional.
+⚡ Always learning. Always building.
+
+</div> ```
