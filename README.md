@@ -1,3 +1,6 @@
+
+
+
 <div align="center">
 
 # ⚡️ **Hey, I’m Srimanth**  
@@ -21,35 +24,70 @@
 
 ## 🛠️ Tech Stack
 
-```text
-Languages:  C | C++ | Python | JavaScript | HTML/CSS
-Tools:      Git | Cisco Packet Tracer | VMware | Wireshark
-Domains:    Cybersecurity | Networking | System Simulation | Scripting
-```
+<div align="center">
+
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+![VMware](https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white)
+![Cisco Packet Tracer](https://img.shields.io/badge/Cisco%20Packet%20Tracer-1D4F91?style=for-the-badge&logo=cisco&logoColor=white)
+
+</div>
 
 ---
 
 ## 🚀 Projects
 
-| 🧩 Project                        | 🔗 Link                                                                                                                | 💡 Description                                                             |
-| --------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| **FileCrypt**                     | [github.com/Srimanthl2k6/FileCrypt](https://github.com/Srimanthl2k6/FileCrypt)                                         | A secure file encryption and decryption utility built with Python and AES. |
-| **Enterprise Network Simulation** | [github.com/Srimanthl2k6/Enterprise_Network_Simulation](https://github.com/Srimanthl2k6/Enterprise_Network_Simulation) | Simulated enterprise-grade network with VLANs, ACLs, and Active Directory. |
+<table align="center">
+  <thead>
+    <tr>
+      <th>🧩 Project</th>
+      <th>🔗 Link</th>
+      <th>💡 Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>FileCrypt</strong></td>
+      <td><a href="https://github.com/Srimanthl2k6/FileCrypt">GitHub</a></td>
+      <td>A secure file encryption and decryption utility built with Python and AES.</td>
+    </tr>
+    <tr>
+      <td><strong>Enterprise Network Simulation</strong></td>
+      <td><a href="https://github.com/Srimanthl2k6/Enterprise_Network_Simulation">GitHub</a></td>
+      <td>Simulated enterprise-grade network with VLANs, ACLs, and Active Directory.</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
 ## 📊 GitHub Stats
 
 <div align="center">
-<!-- You can embed GitHub stats here using shields.io or GitHub-readme-stats -->
+
+![Srimanth's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Srimanthl2k6&show_icons=true&theme=radical&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Srimanthl2k6&layout=compact&theme=radical&hide_border=true)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Srimanthl2k6&theme=radical&hide_border=true)
+
 </div>
 
 ---
 
 ## 🌐 Connect with Me
 
-- [Instagram – @srimanth__l](https://www.instagram.com/srimanth__l/)
-- [LinkedIn – Srimanth Lashkar](https://www.linkedin.com/in/srimanth-lashkar-0794a5264/)
+<div align="center">
+
+<a href="https://www.instagram.com/srimanth__l/"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/srimanth-lashkar-0794a5264/"><img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white" /></a>
+
+</div>
 
 ---
 
