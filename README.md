@@ -73,8 +73,7 @@
 
 <div align="center">
 
-### 💭 *"Focused. Minimal. Intentional."*
-⚡ Always learning. Always building.
+### 💭 *"One. Packet. At. A. Timme."*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=FF6EC7&height=100&section=footer" width="100%"/>
 
