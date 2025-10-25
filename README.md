@@ -9,7 +9,7 @@
 
 ---
 
-<img src="https://media.tenor.com/qj8mHb6dM90AAAAC/coding.gif" width="400" alt="Coding gif">
+<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="100%" alt="Animated Wallpaper">
 
 ---
 
@@ -40,22 +40,6 @@
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![VMware](https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white)
 ![Cisco Packet Tracer](https://img.shields.io/badge/Cisco%20Packet%20Tracer-1D4F91?style=for-the-badge&logo=cisco&logoColor=white)
-
-</div>
-
----
-
-## 🚀 Projects
-
-<div align="center">
-  
-<a href="https://github.com/Srimanthl2k6/FileCrypt">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Srimanthl2k6&repo=FileCrypt&theme=radical&hide_border=true&title_color=FF6EC7&icon_color=FF6EC7&text_color=FFFFFF&bg_color=0D1117" alt="FileCrypt Project Card">
-</a>
-
-<a href="https://github.com/Srimanthl2k6/Enterprise_Network_Simulation">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Srimanthl2k6&repo=Enterprise_Network_Simulation&theme=radical&hide_border=true&title_color=FF6EC7&icon_color=FF6EC7&text_color=FFFFFF&bg_color=0D1117" alt="Enterprise Network Simulation Project Card">
-</a>
 
 </div>
 
