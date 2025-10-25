@@ -13,38 +13,51 @@
 
 ## 🧠 About Me
 
-🧩 Focused on **Cybersecurity**, **Network Architecture**, and **System Design**.  
-⚙️ Currently learning to optimize security and scalability across enterprise networks.  
-🧱 Always building, testing, and breaking things — just to make them stronger.
+🧩 Focused on **Cybersecurity**, **Network Architecture**, and **System Design**  
+⚙️ Learning to optimize security and scalability across enterprise networks  
+🧱 Always building, testing, and breaking things — just to make them stronger
 
 ---
 
 ## 🛠️ Tech Stack
 
 ```text
-Languages:  C | C++ | Python | JavaScript | HTML/CSS  
-Tools:      Git | Cisco Packet Tracer | VMware | Wireshark  
-Domains:    Cybersecurity | Networking | System Simulation | Scripting  
-Domains:    Cybersecurity | Networking | System Simulation | Scripting  
-<div align="center">
+Languages:  C | C++ | Python | JavaScript | HTML/CSS
+Tools:      Git | Cisco Packet Tracer | VMware | Wireshark
+Domains:    Cybersecurity | Networking | System Simulation | Scripting
+```
 
-</div>
+---
+
+## 🚀 Projects
+
 | 🧩 Project                        | 🔗 Link                                                                                                                | 💡 Description                                                             |
 | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | **FileCrypt**                     | [github.com/Srimanthl2k6/FileCrypt](https://github.com/Srimanthl2k6/FileCrypt)                                         | A secure file encryption and decryption utility built with Python and AES. |
 | **Enterprise Network Simulation** | [github.com/Srimanthl2k6/Enterprise_Network_Simulation](https://github.com/Srimanthl2k6/Enterprise_Network_Simulation) | Simulated enterprise-grade network with VLANs, ACLs, and Active Directory. |
-⚡ GitHub Stats
-<div align="center">
 
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+<!-- You can embed GitHub stats here using shields.io or GitHub-readme-stats -->
 </div>
-🌐 Connect with Me
 
-* [Instagram – srimanth__l](https://www.instagram.com/srimanth__l/)
-* [LinkedIn – Srimanth Lashkar](https://www.linkedin.com/in/srimanth-lashkar-0794a5264/)
+---
+
+## 🌐 Connect with Me
+
+- [Instagram – @srimanth__l](https://www.instagram.com/srimanth__l/)
+- [LinkedIn – Srimanth Lashkar](https://www.linkedin.com/in/srimanth-lashkar-0794a5264/)
+
+---
 
 <div align="center">
 
-🩵 Focused. Minimal. Intentional.
+🩵 Focused. Minimal. Intentional.  
 ⚡ Always learning. Always building.
 
-</div> ```
+</div>
+
+---
