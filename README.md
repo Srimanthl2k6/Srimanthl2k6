@@ -69,16 +69,6 @@
 
 ---
 
-## 🎵 Currently Listening To
-
-<div align="center">
-
-  [![Apple Music GitHub profile](https://music-profile.rayriffy.com/theme/dark.svg?uid=001575.d477e769ee084c8d95a9899cb3bea256.1232)](https://music-profile.rayriffy.com)
-
-</div>
-
----
-
 ## 📊 GitHub Stats
 
 <div align="center">
