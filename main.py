@@ -6,16 +6,9 @@ from lxml import etree
 import time
 import hashlib
 
-# Fine-grained personal access token with All Repositories access:
-# Account permissions: read:Followers, read:Starring, read:Watching
-# Repository permissions: read:Commit statuses, read:Contents, read:Issues, read:Metadata, read:Pull Requests
 HEADERS = {'authorization': 'token ' + os.environ.get('ACCESS_TOKEN', '')}
 USER_NAME = os.environ.get('USER_NAME', 'Srimanthl2k6')
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
-
-
-def format_plural(unit):
-    return 's' if unit != 1 else ''
 
 
 def simple_request(func_name, query, variables):
@@ -25,24 +18,7 @@ def simple_request(func_name, query, variables):
     raise Exception(func_name, ' has failed with a', request.status_code, request.text, QUERY_COUNT)
 
 
-def graph_commits(start_date, end_date):
-    query_count('graph_commits')
-    query = '''
-    query($start_date: DateTime!, $end_date: DateTime!, $login: String!) {
-        user(login: $login) {
-            contributionsCollection(from: $start_date, to: $end_date) {
-                contributionCalendar {
-                    totalContributions
-                }
-            }
-        }
-    }'''
-    variables = {'start_date': start_date, 'end_date': end_date, 'login': USER_NAME}
-    request = simple_request(graph_commits.__name__, query, variables)
-    return int(request.json()['data']['user']['contributionsCollection']['contributionCalendar']['totalContributions'])
-
-
-def graph_repos_stars(count_type, owner_affiliation, cursor=None, add_loc=0, del_loc=0):
+def graph_repos_stars(count_type, owner_affiliation, cursor=None):
     query_count('graph_repos_stars')
     query = '''
     query ($owner_affiliation: [RepositoryAffiliation], $login: String!, $cursor: String) {
@@ -240,10 +216,55 @@ def stars_counter(data):
     return total_stars
 
 
-def svg_overwrite(filename, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data):
+def release_getter(username):
     """
-    Parse SVG files and update elements with commit, star, repo, contributor, follower, and LOC data.
+    Returns total number of releases across all repos owned by the user
     """
+    total_releases = 0
+    page = 1
+    while True:
+        response = requests.get(
+            f'https://api.github.com/users/{username}/repos?per_page=100&page={page}',
+            headers=HEADERS
+        )
+        repos = response.json()
+        if not repos:
+            break
+        for repo in repos:
+            rel = requests.get(
+                f'https://api.github.com/repos/{username}/{repo["name"]}/releases?per_page=100',
+                headers=HEADERS
+            )
+            total_releases += len(rel.json())
+        page += 1
+    return total_releases
+
+
+def deployment_getter(username):
+    """
+    Returns total number of deployments across all repos owned by the user
+    """
+    total_deployments = 0
+    page = 1
+    while True:
+        response = requests.get(
+            f'https://api.github.com/users/{username}/repos?per_page=100&page={page}',
+            headers=HEADERS
+        )
+        repos = response.json()
+        if not repos:
+            break
+        for repo in repos:
+            dep = requests.get(
+                f'https://api.github.com/repos/{username}/{repo["name"]}/deployments?per_page=100',
+                headers=HEADERS
+            )
+            total_deployments += len(dep.json())
+        page += 1
+    return total_deployments
+
+
+def svg_overwrite(filename, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data, release_data, deployment_data):
     tree = etree.parse(filename)
     root = tree.getroot()
     find_and_replace(root, 'commit_data', '{:,}'.format(commit_data))
@@ -254,6 +275,8 @@ def svg_overwrite(filename, commit_data, star_data, repo_data, contrib_data, fol
     find_and_replace(root, 'loc_data', loc_data[2])
     find_and_replace(root, 'loc_add', loc_data[0])
     find_and_replace(root, 'loc_del', loc_data[1])
+    find_and_replace(root, 'release_data', '{:,}'.format(release_data))
+    find_and_replace(root, 'deployment_data', '{:,}'.format(deployment_data))
     tree.write(filename, encoding='utf-8', xml_declaration=True)
 
 
@@ -262,6 +285,8 @@ def find_and_replace(root, element_id, new_text):
         new_text = '{:,}'.format(new_text)
     new_text = str(new_text)
     element = root.find(f".//*[@id='{element_id}']")
+    if element is None:
+        element = root.find(f".//{{'http://www.w3.org/2000/svg'}}*[@id='{element_id}']")
     if element is not None:
         element.text = new_text
 
@@ -339,22 +364,27 @@ if __name__ == '__main__':
     repo_data, repo_time = perf_counter(graph_repos_stars, 'repos', ['OWNER'])
     contrib_data, contrib_time = perf_counter(graph_repos_stars, 'repos', ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'])
     follower_data, follower_time = perf_counter(follower_getter, USER_NAME)
+    release_data, release_time = perf_counter(release_getter, USER_NAME)
+    deployment_data, deployment_time = perf_counter(deployment_getter, USER_NAME)
 
     formatter('commit counter', commit_time)
     formatter('star counter', star_time)
     formatter('repo counter', repo_time)
     formatter('contrib counter', contrib_time)
     formatter('follower counter', follower_time)
+    formatter('release counter', release_time)
+    formatter('deployment counter', deployment_time)
 
-    # Format LOC values with commas for display
     loc_display = [
         '{:,}'.format(total_loc[0]),
         '{:,}'.format(total_loc[1]),
         '{:,}'.format(total_loc[2]),
     ]
 
-    svg_overwrite('dark-mode.svg', commit_data, star_data, repo_data, contrib_data, follower_data, loc_display)
-    svg_overwrite('light-mode.svg', commit_data, star_data, repo_data, contrib_data, follower_data, loc_display)
+    print(f"DEBUG → commits:{commit_data} stars:{star_data} repos:{repo_data} contrib:{contrib_data} followers:{follower_data} releases:{release_data} deployments:{deployment_data} loc:{loc_display}")
+
+    svg_overwrite('dark-mode.svg', commit_data, star_data, repo_data, contrib_data, follower_data, loc_display, release_data, deployment_data)
+    svg_overwrite('light-mode.svg', commit_data, star_data, repo_data, contrib_data, follower_data, loc_display, release_data, deployment_data)
 
     print('\nTotal GitHub GraphQL API calls:', '{:>3}'.format(sum(QUERY_COUNT.values())))
     for funct_name, count in QUERY_COUNT.items():
