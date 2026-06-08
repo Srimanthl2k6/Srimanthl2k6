@@ -73,32 +73,15 @@
 
 <div align="center">
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark-mode.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="light-mode.svg" />
+  <img src="dark-mode.svg" alt="GitHub Stats" width="100%" />
+</picture>
+
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Srimanthl2k6&bg_color=0D1117&color=FF6EC7&line=FF6EC7&point=FFFFFF&area=true&hide_border=true)
 
-<br/>
-
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Srimanthl2k6&theme=radical&hide_border=true&stroke=FF6EC7&ring=FF6EC7&fire=FF6EC7&currStreakLabel=FFFFFF&background=0D1117)
-
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=Srimanthl2k6&color=FF6EC7&style=for-the-badge&label=PROFILE+VIEWS)
-![GitHub followers](https://img.shields.io/github/followers/Srimanthl2k6?color=FF6EC7&style=for-the-badge&logo=github&label=FOLLOWERS)
-![GitHub User's stars](https://img.shields.io/github/stars/Srimanthl2k6?color=FF6EC7&style=for-the-badge&logo=github&label=TOTAL+STARS)
-
-<br/>
-
-<!-- WakaTime / detailed stats via github-profile-summary-cards -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Srimanthl2k6&theme=radical" width="100%"/>
-
-<br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Srimanthl2k6&theme=radical" width="49%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Srimanthl2k6&theme=radical" width="49%"/>
-
-<br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Srimanthl2k6&theme=radical" width="49%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Srimanthl2k6&theme=radical&utcOffset=5.5" width="49%"/>
 
 </div>
 
