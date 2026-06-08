@@ -2,8 +2,8 @@ name: GitHub Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # runs every day at midnight UTC
-  workflow_dispatch:        # allows manual trigger from Actions tab
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -30,6 +30,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/Srimanthl2k6/Srimanthl2k6.git
           git add dark-mode.svg light-mode.svg cache/
           git diff --cached --quiet || git commit -m "chore: update github stats [skip ci]"
           git push
