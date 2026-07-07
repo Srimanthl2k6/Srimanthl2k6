@@ -79,7 +79,7 @@
 
   <!-- FOLLOWERS -->
   <text x="720" y="82" font-family="'Courier New', Courier, monospace" font-size="10" fill="#FF6EC7" opacity="0.6" letter-spacing="2">FOLLOWERS</text>
-  <text x="720" y="108" font-family="'Courier New', Courier, monospace" font-size="24" font-weight="bold" fill="#1a1a2e"><tspan id="follower_data">14</tspan></text>
+  <text x="720" y="108" font-family="'Courier New', Courier, monospace" font-size="24" font-weight="bold" fill="#1a1a2e"><tspan id="follower_data">15</tspan></text>
   <rect x="720" y="114" width="90" height="2" fill="url(#accent_grad)" opacity="0.6"/>
 
   <!-- ── DIVIDER ── -->
